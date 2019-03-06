@@ -15,7 +15,7 @@ console!
 
 ===== HOW TO - Facebook App & Page Setup =====
 
-1) Go to developers.facebook.com and create an account/sign in
+1) Go to https://developers.facebook.com and create an account/sign in
 2) In the top-right dropdown go to 'My Apps > Add New App'
 3) Give it a display name and complete the reCAPTCHA
 4) On the left-hand menus, go to 'Settings > Advanced'
@@ -43,6 +43,11 @@ console!
 23) Input: '{PAGE_ID}?fields=access_token' into the input field, where {PAGE_ID} is the id of the facebook page
 24) Find the permanent page access token in the response (node "access_token")
 25) Go back to the Access Token Debugger and paste the permanent token and press "Debug". "Expires" should be "Never"
+26) Go back to https://developers.facebook.com and select your app in 'My Apps'
+27) On the right hand side, go to 'Settings > Basic'
+28) Under 'Privacy Policy URL', input a URL to a text document containing your Privacy Policy (Google Drive Docs works for this)
+29) In the top right of the app settings should be a toggle that says 'OFF' next to 'Status: In Development'. Click on the toggle to publish your app.
+30) You're all setup!
 
 You now have everything you need to post to your facebook page!
 
