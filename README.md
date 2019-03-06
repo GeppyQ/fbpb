@@ -8,12 +8,15 @@ the facebook page you desire!
 Alternatively, use the command set to make posts from a seperate script, or from the
 console!
 
-# REQUIREMENTS
+REQUIREMENTS
+----
+
 - Python3.7 or higher
 - Python requests library
 - Python re library
 
-# HOW TO - Facebook App & Page Setup
+HOW TO - Facebook App & Page Setup
+----
 
 1. Go to https://developers.facebook.com and create an account/sign in
 2. In the top-right dropdown go to 'My Apps > Add New App'
@@ -51,7 +54,8 @@ console!
 
 You now have everything you need to post to your facebook page!
 
-# 'parameters.txt' SETUP
+'parameters.txt' SETUP
+----
 
 To create the parameters file, simply run `fbpb.py` and it will create the file.  
 The text file should look as follows, with {} areas being replaced with the required field.
@@ -62,7 +66,8 @@ The text file should look as follows, with {} areas being replaced with the requ
 > "page_id"='{Your page ID number}'  
 > "message"='{The message you wish to post}'  
 
-# COMMANDS
+COMMANDS
+----
 
 Whether running in the python shell or through the console, these commands will allow you
 to post content with ease.
