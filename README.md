@@ -17,7 +17,7 @@ REQUIREMENTS
 
 HOW TO - Facebook App & Page Setup
 ----
-
+#### Creating the App and Page
 1. Go to https://developers.facebook.com and create an account/sign in
 2. In the top-right dropdown go to 'My Apps > Add New App'
 3. Give it a display name and complete the reCAPTCHA
@@ -27,6 +27,7 @@ HOW TO - Facebook App & Page Setup
 7. Select the 'Business or brand' option in the new window
 8. Give your page a name and a category ('Just for fun' if you can't think of anything else)
 9. Press 'Continue' and either skip or add a profile and cover picture
+#### Getting Access Tokens
 10. Go to https://developers.facebook.com/tools/explorer and log in
 11. Select your App from the top right dropdown menu
 12. Select "Get User Access Token" from dropdown (right of access token field)
@@ -46,6 +47,7 @@ HOW TO - Facebook App & Page Setup
 23. Input: '{PAGE_ID}?fields=access_token' into the input field, where {PAGE_ID} is the id of the facebook page
 24. Find the permanent page access token in the response (node "access_token")
 25. Go back to the Access Token Debugger and paste the permanent token and press "Debug". "Expires" should be "Never"
+#### Publishing the App
 26. Go back to https://developers.facebook.com and select your app in 'My Apps'
 27. On the right hand side, go to 'Settings > Basic'
 28. Under 'Privacy Policy URL', input a URL to a text document containing your Privacy Policy (Google Drive Docs works for this)
