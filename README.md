@@ -1,7 +1,6 @@
 # Hello!
 
-This is a python tool to ~~stop you wanting to off yourself as much as I did~~ make it easier to use the 
-~~god awful~~ Facebook API.
+This is a python tool to make it easier to use the ~~god awful~~ Facebook API.
 
 This tool simply takes a few parameters in the 'parameters.txt' file and will post on
 the facebook page you desire!  
